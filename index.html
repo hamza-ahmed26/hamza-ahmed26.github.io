@@ -131,6 +131,15 @@
     ul.simple { padding-right: 20px; margin: 0; }
     ul.simple li { margin-bottom: 6px; }
 
+    /* الإيميل طويل فلازم يلف على الموبايل */
+    .email {
+      display: block;
+      margin-top: 6px;
+      overflow-wrap: anywhere;
+      word-break: break-all;
+      font-size: 15px;
+    }
+
     footer {
       text-align: center;
       color: var(--gray);
@@ -222,7 +231,7 @@
       <p>
         أنا لسه في مرحلة التعلم، وبدور على فرصة تدريب أتعلم منها وأكتسب خبرة حقيقية.
         لو عندك فرصة أو نصيحة تفيدني، ابعتلي على:
-        <a href="mailto:hamza070626ahmed0195ultmate@gmail.com" dir="ltr">hamza070626ahmed0195ultmate@gmail.com</a>
+        <a class="email" href="mailto:hamza070626ahmed0195ultmate@gmail.com" dir="ltr">hamza070626ahmed0195ultmate@gmail.com</a>
       </p>
     </section>
 
